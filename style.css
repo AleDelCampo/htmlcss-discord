@@ -12,25 +12,21 @@
 }
 
 div .wave{
+    display: flex;
     filter: invert(96%);
-    width: 2000px;
-    margin: -46px;
+    min-width: 100%;
     padding-top: 80px;
 }
 
 div .wave-white {
+    display: flex;
     filter: invert(100%);
-    width: 2000px;
-    margin: -46px;
+    min-width: 100%;
     padding-top: 80px;
 }
 
 #bgc-grey{
     background-color: #f6f6f6;
-}
-
-header, section {
-    padding: 40px 20px;
 }
 
 nav {
@@ -147,6 +143,7 @@ header button {
 .frog {
     background-image: url(img/item1.svg);
     background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .first-column h2 {
@@ -164,6 +161,7 @@ header button {
 .mage {
     background-image: url(img/item2.svg);
     background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .second-column h2 {
@@ -181,6 +179,7 @@ header button {
 .cyclop {
     background-image: url(img/item3.svg);
     background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .third-column h2 {
