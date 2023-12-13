@@ -11,14 +11,6 @@
     margin-right: auto;
 }
 
-.container-small {
-    background-color: #ee82ee;
-    border: dashed 2px black;
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 header, section {
     padding: 40px 20px;
 }
@@ -32,7 +24,7 @@ header, section {
 }
 
 nav {
-    background-color: #3161e0;
+    background-color: #255ee9;
     padding: 10px;
 }
 
@@ -41,7 +33,7 @@ nav .container > * {
 }
 
 nav .container {
-    background-color: #3161e0;
+    background-color: #255ee9;
     display: flex;
 }
 
@@ -73,19 +65,73 @@ nav .login {
 
 nav button{
     margin: auto;
-    height: 32px;
+    height: 30px;
     border-radius: 16px;
     border: none;
     line-height: 10px;
-    color: black;
 }
 
-#hero {
-    background-color: #00008b;
+header {
+    background-image: url(img/jumbo.png);
+    background-size: cover;
+    background-position: center;
 }
 
 #hero .container-small {
-    height: 300px;
+    height: 560px;
+    text-align: center;
+    color: white;
+}
+
+#hero p{
+    align-self: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 1em;
+    line-height: 36px;
+    width: 600px;
+}
+
+.container-small {  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    font-size: 2.8em;
+    padding-bottom: 20px;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding-bottom: 80px;
+}
+
+header button {
+    border-radius: 20px;
+    border: none;
+    height: 38px;
+}
+
+#left-button{
+    font-weight: bold;
+    width: 154px;
+}
+
+#icon{
+    padding-right: 8px;
+}
+
+#right-button{
+    background-color: #23272a;
+    color: white;
+    width: 220px;
 }
 
 .row {
