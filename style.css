@@ -38,8 +38,8 @@ nav {
 }
 
 nav .container > * {
-    border: dashed 2px black
     padding: 10px;
+    border: dashed 2px black
 }
 
 nav .container {
