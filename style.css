@@ -185,17 +185,6 @@ header button {
     line-height: 24px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 .row {
     display: flex;
 }
@@ -212,9 +201,41 @@ header button {
 }
 
 .big-content {
-    background-color: #228b22;
-    height: 600px;
+    flex-direction: column;
+    height: 800px;
+    text-align: center;
 }
+
+.big-content h2 {
+    font-size: 2.4em;
+    padding-bottom: 20px;
+}
+
+.big-content p {
+    align-self: center  ;
+    max-width: 800px;
+    line-height: 24px;
+}
+
+.rabbit {
+    background-image: url(img/item4-big.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer {
     background-color: #23272a;
