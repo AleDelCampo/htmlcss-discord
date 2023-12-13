@@ -15,14 +15,6 @@ header, section {
     padding: 40px 20px;
 }
 
-.bgc-gray {
-    background-color: #d3d3d3;
-}
-
-.bgc-white {
-    background-color: white;
-}
-
 nav {
     background-color: #255ee9;
     padding: 10px;
@@ -224,13 +216,33 @@ header button {
     background-repeat: no-repeat;
 }
 
+.stars {
+    display: flex;
+    justify-content: center;
+}
 
+h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    padding-bottom: 40px;
+    line-height: 10px;
+}
 
+.download {
+    display: flex;
+    justify-content: center;
+}
 
-
-
-
-
+.download-button {
+    background-color: #8ea1e1;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    height: 34px;
+    width: 160px;
+    line-height: 10px;
+}
 
 
 
@@ -242,11 +254,9 @@ footer {
     padding-top: 8px;
 }
 
-
 footer .container > * {
     border: dashed 2px white;
 }
-
 
 footer #footer-top {
     margin-bottom: 30px;
