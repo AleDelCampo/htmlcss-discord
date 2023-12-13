@@ -124,31 +124,90 @@ header button {
     width: 154px;
 }
 
-#icon{
+#icon {
     padding-right: 8px;
 }
 
-#right-button{
+#right-button {
     background-color: #23272a;
     color: white;
     width: 220px;
 }
+
+.frog {
+    background-image: url(img/item1.svg);
+    background-size: contain;
+}
+
+.first-column h2 {
+    font-size: 2.4em;
+    padding-bottom: 20px;
+    text-align: left;
+    width: 300px;
+}
+
+.first-column p {
+    width: 280px;
+    line-height: 24px;
+}
+
+.mage {
+    background-image: url(img/item2.svg);
+    background-size: contain;
+}
+
+.second-column h2 {
+    font-size: 2.4em;
+    padding-bottom: 20px;
+    text-align: left;
+    width: 300px;
+}
+
+.second-column p {
+    width: 280px;
+    line-height: 24px;
+}
+
+.cyclop {
+    background-image: url(img/item3.svg);
+    background-size: contain;
+}
+
+.third-column h2 {
+    font-size: 2.4em;
+    padding-bottom: 20px;
+    text-align: left;
+    width: 300px;
+}
+
+.third-column p {
+    width: 280px;
+    line-height: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .row {
     display: flex;
 }
 
 .column-big {
-    background-color: #1e90ff;
     height: 400px;
-    border: dashed 2px black;
     flex-grow: 1;
 }
 
+
 .column-small {
-    background-color: #ffc0cb;
     height: 400px;
-    border: dashed 2px black;
     width: 400px;
 }
 
