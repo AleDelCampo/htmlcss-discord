@@ -6,7 +6,6 @@
 }
 
 .container {
-    border: dashed 2px black;
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
@@ -33,40 +32,52 @@ header, section {
 }
 
 nav {
-    background-color: #add8e6;
-    padding: 10px ;
+    background-color: #3161e0;
+    padding: 10px;
 }
 
 nav .container > * {
     padding: 10px;
-    border: dashed 2px black
 }
 
 nav .container {
-    background-color: #daa520;
+    background-color: #3161e0;
     display: flex;
 }
 
 nav .logo {
+    margin: auto;
     width: 100px;
-    border: dashed 2px black
 }
 
 nav .nav-links {
+    margin: auto;
     flex-grow: 1;
 }
 
-nav .nav-links ul {
+nav .nav-links ul {     
     display: flex;
     justify-content: center;
     list-style-type: none;
-    gap: 10px;
+    gap: 30px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
 }
 
 nav .login {
-    width: 100px;
     text-align: right;
-    border: dashed 2px black
+}
+
+nav button{
+    margin: auto;
+    height: 32px;
+    border-radius: 16px;
+    border: none;
+    line-height: 10px;
+    color: black;
 }
 
 #hero {
