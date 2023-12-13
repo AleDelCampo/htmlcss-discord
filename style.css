@@ -87,6 +87,7 @@ header {
     height: 560px;
     text-align: center;
     color: white;
+    margin-bottom: 60px;
 }
 
 #hero p{
@@ -259,6 +260,7 @@ h3 {
     height: 34px;
     width: 160px;
     line-height: 10px;
+    margin-bottom: 80px;
 }
 
 .biggest-column h4{
